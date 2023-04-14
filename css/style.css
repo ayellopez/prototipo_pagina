@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2? family = Be + Vietnam + Pro: wght @ 400; 500; 700 & display = swap');
+
+*{ box-sizing: border-box;
+    margin: 0;}
+    
+
+html{font-family:'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+flex-wrap: wrap;}
+
+/*Hola Nico, en comentario deje los backroung-color por si te servían para corregir.
+ Tomé tu consejo de aplicarle fondos y fue lo que me ayudo a darle estilo a todo, casi sin problema.*/
+
+/*header*/
+
+header div{/*background-color: gold*/
+    display: flex;
+    padding: 50px;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;}
+
+header div nav ul{list-style-type: none;
+    width: 500px;
+    font-weight: 500;
+    font-size: 13px;
+    display: flex; 
+    justify-content: space-around;}
+
+header div nav ul li a{text-decoration:none; 
+    color: #232e50}        
+
+header div button{background-color: rgba(240, 80, 10, 0.8); 
+    color:white; 
+    font-size: 13px;
+    font-weight: bold; 
+    width: 134px;
+    height: 44px; 
+    border-radius: 50px; 
+    border-style: none;}
+
+header div img.hamburguesa{display: none;}
+
+
+
+/*Main*/
+section.primera{/*background-color: violet;*/
+    display: flex; 
+    justify-content:space-around;
+    padding: 50px; 
+    flex-wrap: wrap;}
+
+section.primera div.primercaja{/*background-color: yellow;*/
+    width: 440px;
+    height: 400px;
+    left: 165px;
+    top: 280px;}
+
+section.primera div.primercaja h1{font-style: normal;
+    color:#232C50;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    margin: 25px;}
+
+section.primera div.primercaja p{/*background-color:deeppink;*/
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    width: 340px;
+    height: 65px; 
+    margin: 25px;}
+
+section.primera div.primercaja button{background-color: rgba(240, 80, 10, 0.8); 
+    color:white; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-size: 13px; 
+    font-weight: bold; 
+    width: 134px;
+    height: 44px; 
+    border-radius: 50px; 
+    border-style: none;
+    margin: 25px;}
+
+section.primera div.segundacaja img{width: 500px; height: 480px;}
+
+
+
+
+
+section.segunda{/*background-color: turquoise;*/
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap}
+
+section.segunda div.terceracaja{/*background-color: green;*/
+    flex-direction:column;
+    width: 430px;
+    height: 210px;}
+
+section.segunda div.terceracaja h2{color:#232851; 
+    font-size: 36px;}   
+
+section.segunda div.terceracaja p{/*background-color: brown;*/
+    color:black; 
+    display: flex;
+    align-items: flex-end;
+    width: 320px;
+    height: 125px;} 
+
+section.segunda div.cuartacaja article{/*background-color: indigo;*/
+    width: 420px;
+    height: 158px;
+
+    flex-direction: column;}
+
+section.segunda div.cuartacaja article div.viñeta{display: flex;}
+
+section.segunda div.cuartacaja article div.viñeta span{background-color: rgba(240, 80, 10, 0.8);
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    border-radius: 30px;}
+
+ section.segunda div.cuartacaja article div.viñeta h6{/*background-color: pink;*/ 
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+    font-size: 16px; 
+    color: #323851; 
+    font-weight: bold;}
+
+section.segunda div.cuartacaja article div.text{/*background-color:yellow;*/
+margin-left:80px; height: 120px; width: 340px;}
+
+
+section.segunda div.cuartacaja article div.text p{color: #B3B2B7; 
+    font-size: 14px;
+    line-height: 20px;
+    height: 100px;}
+
+section.tercera{/*background-color: red;*/
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 480px;
+    flex-wrap: wrap}
+
+section.tercera div.quintacaja h2{font-size: 40px; 
+    color:#242E53;
+    }
+
+section.tercera div.sextacaja{/*background-color: lightcoral;*/
+width:1200px;
+display: flex;
+justify-content: space-around;
+}
+
+section.tercera div.sextacaja article {/*background-color: lightgreen;*/
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    width: 445px;
+    height: 250px;
+    flex-wrap: wrap;}
+    
+
+section.tercera div.sextacaja article h6{margin: 15px;
+color:#3F4868;
+font-size: 16px;}
+
+section.tercera div.sextacaja article p{color:#B9B9C1; 
+    text-align: center;
+    margin-top: 10px;}
+
+section.tercera div.septimacaja button{ background-color: rgba(240, 80, 10, 0.8); 
+    color:white; 
+    font-size: 13px; 
+    font-weight: bold; 
+    width: 134px;
+    height: 44px; 
+    border-radius: 50px; 
+    border-style: none;
+    }
+
+section.cuarta{background-color: #F3613C;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap}
+
+section.cuarta p{font-size: 40px; 
+    font-weight: bold; 
+    color: white; 
+    width: 450px; 
+    margin-left: 160px;}
+
+section.cuarta button{color: rgba(240, 80, 10, 0.8); 
+    background-color:white; 
+    font-size: 13px; 
+    font-weight: bold; 
+    width: 134px;
+    height: 44px; 
+    border-radius: 50px; 
+    border-style: none;
+    margin-right: 160px;}   
+
+
+/*Footer*/
+
+footer{background-color: black;
+height: 250px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;}
+
+footer div.logos{/*background-color:yellow;*/margin: 50px;}
+
+footer div.logos img.logofooter{margin-bottom: 25px;}
+
+footer div.logos div.logosredes{/*background-color:pink;*/
+    width: 160px;
+    display:flex; 
+    justify-content: space-around;
+    }
+
+footer div.menu{/*background-color: tomato;*/
+    width: 400px; 
+    height: 140px; 
+   }
+
+footer div.menu nav{
+    display: flex; 
+    justify-content: space-between;
+    line-height: 35px;
+    margin: 0px 20px;}
+
+footer div.menu nav ul{list-style-type: none;font-size: 16px;}
+
+footer div.menu nav ul li a{text-decoration:none; color: white;}
+
+footer div.formulario form input[type="text"]{width: 200px; 
+    height: 50px;
+    border-radius: 50px; 
+    border-style: none;
+    background-color: white;
+    color: #A0A0A0;
+    font-size: 14px;
+    padding: 10px;}
+
+footer div.formulario form input[type="submit"]{background-color: #F3603B; 
+    color: white; 
+    font-size: 14px; 
+    width: 70px; 
+    height: 50px;
+    border-radius: 50px;
+    border-style: none;}
+
+footer div.copyright{/*background-color: violet;*/ margin-top: 30px; display:flex; justify-content: flex-end;}
+
+footer div.copyright span{color:#8C8C94 ;font-size:12px; }
+
+/*---------------------------------------------------------------------------------------*/
+
+
+@media(max-width: 375px){
+
+    /*HEADER*/
+
+    header div nav, header div button{display:none}
+    header div img.hamburguesa{display: block;}
+    header div{ display: flex;
+        justify-content: space-between;
+        padding: 30px 20px;}
+    
+
+
+    /*MAIN*/
+
+    section.primera div.primercaja{order: 1; text-align: center;width: 375px;}
+
+    section.primera div.primercaja h1{font-size: 35px;font-weight: 700; line-height: 45px;}
+
+    section.primera div.primercaja p{color:#B3B2B7; 
+        font-size: 18px;
+        line-height: 28px; 
+        align-items: flex-start;
+        width: 330px; height: 100px;}
+    
+    section.primera div.segundacaja img{width: 320px; height: 300px; margin-left: 10px;}
+
+    section.primera div.primercaja button{margin: 0 125px;}
+
+   
+   
+
+    section.segunda div.terceracaja{text-align: center;}
+    
+    section.segunda div.terceracaja p{color:#B3B2B7; line-height: 25px; font-size: 16px; margin-bottom: 20px;}
+
+    section.segunda div.cuartacaja article{width: 375px;display:flex; align-items: center;}
+
+    section.segunda div.cuartacaja article div.text{margin: 0px;}
+    
+    section.segunda div.cuartacaja article div.viñeta{background-color: rgba(252, 230, 206, 0.986);width: 375px; display: flex; height: 30px;}
+    
+    section.segunda div.cuartacaja article div.viñeta span{display: flex; margin: 0px 0px 0px 25px ;}
+
+    section.segunda div.cuartacaja article div.text{width: 330px;margin-left: 10px;margin-top: 10px;}
+
+
+
+
+
+    section.tercera div.quintacaja h2 {font-size: 30px;}
+
+    section.tercera div.sextacaja{width: 350px;}
+
+    section.tercera div.sextacaja article.ali{ width: 350px; justify-content: flex-start;}
+
+    section.tercera div.sextacaja article.ali p{width: 300px;}
+
+    section.tercera div.sextacaja article.anisha,section.tercera div.sextacaja article.richard {display: none;}
+
+    
+    
+
+
+    section.cuarta{flex-direction: column; height: 380px; ;}
+
+    section.cuarta p{font-size: 35px; width: 300px; height: 200px; margin: 15px;text-align:center; line-height: 50px; padding-top: 70px;}
+
+    section.cuarta button{margin: 25px 25px 60px 25px ; ;}
+
+
+
+    /*FOOTER*/
+    footer{height: 500px; justify-content: center;}
+
+    footer div.copyright {position: absolute; top: 2970px; left: 90px;}
+
+    footer div.menu nav ul{font-size: 12px;}
+
+   
+    footer div.logos{order: 3; display: flex; flex-direction: column-reverse;}
+
+    footer div.logos div.logosredes{justify-content: space-around;margin-bottom:50px; width: 330px; height:23px;}
+
+    footer div.logos img.logofooter{width: 150px; margin-left: 80px;}
+
+    footer div.menu{order: 2;}
+
+    footer div.menu nav{display: flex; justify-content:center; margin-top: 20px;}
+
+    footer div.menu nav ul li{margin-right: 40px; margin-left: 20px;}
+    
+    footer div.formulario form input[type="text"]{width: 250px; height: 40px; margin-top: 40px;}
+
+    footer div.formulario form input[type="submit"]{height: 40px;}
+}
+
+
+
